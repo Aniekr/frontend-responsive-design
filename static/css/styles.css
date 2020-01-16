@@ -179,3 +179,15 @@ input[type=text]:focus, input[type=password]:focus {
 		width: 100%;
 	}
 }
+
+.story-title {
+	cursor: pointer;
+}
+.selected {
+	color: darkgoldenrod;
+}
+
+#home {
+	text-decoration: none;
+	color: black;
+}

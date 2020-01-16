@@ -8,3 +8,16 @@ function showSearch () {
 		searchfield.style.display = 'none'
 	}
 }
+
+const articles = document.getElementsByClassName("story-title")
+Array.from(articles).forEach(function (story) {
+	story.addEventListener("click", function(){
+		if (this.classList.contains('selected')) {
+			this.classList.remove('selected')
+		} else {
+			this.classList.add('selected')
+		}
+		}
+	)
+}
+)
