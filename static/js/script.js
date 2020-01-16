@@ -10,6 +10,7 @@ function showSearch () {
 }
 
 /* meerdere verhalen tegelijk selecteren */
+const articles = document.getElementsByClassName("story-title")
 Array.from(articles).forEach(function (story) {
 	story.addEventListener("click", function(){
 console.log(this) 
