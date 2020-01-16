@@ -9,6 +9,7 @@ function showSearch () {
 	}
 }
 
+/* meerdere verhalen tegelijk selecteren om te liken */
 const articles = document.getElementsByClassName("story-title")
 Array.from(articles).forEach(function (story) {
 	story.addEventListener("click", function(){
