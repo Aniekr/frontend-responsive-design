@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="26px" viewBox="0 0 27 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Like</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Stylesheet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Overzichtspagina-desktop" transform="translate(-1199.000000, -469.000000)" fill="#FFFFFF">
+            <g id="Group" transform="translate(1101.000000, 292.000000)">
+                <g id="Like-empty" transform="translate(98.000000, 177.000000)">
+                    <g id="hart">
+                        <path d="M27,8.10526316 C27,3.6287768 23.7355207,0 19.7086372,0 C17.0791567,0 14.782793,1.55238791 13.4999178,3.8723806 C12.217207,1.55238791 9.91985696,0 7.29043126,0 C3.26354778,0 0,3.6287768 0,8.10526316 C0,10.5424586 0.971513175,12.7228923 2.502678,14.2077242 L12.8345609,25.6936525 C13.0110103,25.8898026 13.2503131,26 13.4999178,26 C13.7495225,26 13.9888253,25.8898026 14.1652747,25.6936525 L24.4971576,14.2077242 C26.0283772,12.7228923 27,10.5424586 27,8.10526316 Z" id="Path" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,9 +1,87 @@
+* {box-sizing: border-box}
+/* fonts */
+@font-face {
+	font-family: "dfds-bold";
+	src: url("../fonts/dfds-bold.ttf");
+}
+@font-face {
+	font-family: "dfds-light";
+	src: url("../fonts/dfds-light.ttf");
+}
+@font-face {
+	font-family: "segoe";
+	src: url("../fonts/segoeui.ttf");
+}
+
 /* header */
 
 header {
-    display: block;
+    display: flex;
+	justify-content: space-between;
     background-color: #ffffff;
 }
+
+.menu-actions {
+	display: flex;
+}
+
+.menu-actions > img {
+	padding-right: 2em;
+	cursor: pointer;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+}
+
+nav > ul {
+	display: flex;
+	list-style: none;
+	padding-inline-start: 0;
+}
+
+nav > ul img {
+	padding-right: 2em;
+}
+
+.bottom {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.bottom > a {
+	color: white;
+	font-size: 18px;
+}
+.buttons > a {
+	margin-right: 1em;
+}
+
+#zoeken {
+	display: block;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 2em;
+}
+#zoeken > input {
+	width: 100%;
+	height: 3em;
+	padding-left: 2em;
+	background: white;
+	border: none;
+
+}
+
+h1 {
+	padding: 1em;
+	margin: 0;
+}
+
+.articles {
+	margin-left: 2em;
+}
+
 
 #logo {
     width: 8em;
@@ -13,47 +91,66 @@ header {
 /* body */
 
 body {
+	font-family: "segoe", sans-serif;
     background-color: #EAEDEE;
+	margin: 0;
 }
 
-h2 {
-    margin-left: 0.5em;
-    ;
+h1, h2, h3, h4 {
+	font-family: "dfds-bold", sans-serif
 }
 
 article {
     color: #ffffff;
     position: relative;
     width: 20em;
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-top: 4em;
-    text-align: left;
+	text-align: left;
     display: inline-block;
     background-color: #005184;
-    margin-bottom: 3em;
-    margin-top: 2em;;
+	margin: 0 3em 3em 0;
+	padding: 1em;
 }
 
-article:before {
-    content: "";
-    width: 18em;
-    height: 2.1em;
-    position: absolute;
-    top: 12.5em;
-    right: 2em;
-    background: #005184;
+/* styling voor de registeren & login pagina https://www.w3schools.com/howto/howto_css_register_form.asp */
+
+/* Add padding to containers */
+.form {
+	margin-left: 2em;
+	margin-right: 2em;
 }
 
-article:after {
-    content: "";
-    width: 0;
-    height: 0;
-    margin-left: -3em;
-    position: absolute;
-    top: 12.5em;
-    left: 19em;
-    border: 2em solid #005184;
-    border-right: 2em solid transparent;
-    border-bottom: 0em solid transparent;
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+	background-color: #ddd;
+	outline: none;
+}
+
+/* Set a style for the submit/register button */
+.register-button {
+	background-color: #005184;
+	color: white;
+	padding: 16px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+}
+
+.register-button:hover {
+	opacity:1;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+	background-color: #f1f1f1;
+	text-align: center;
 }
