@@ -154,3 +154,28 @@ input[type=text]:focus, input[type=password]:focus {
 	background-color: #f1f1f1;
 	text-align: center;
 }
+
+/*animeer knoppen*/
+.button {
+	transition: transform .1s ease-in-out;
+}
+.buttons > a:nth-child(1) > img:hover {
+	transform: scale(1.1);
+}
+/*https://www.domysee.com/blogposts/coloring-white-images-css-filter for coloring*/
+.buttons > a:nth-child(2) > img:hover {
+	transform: scale(1.1);
+	filter: brightness(0.5) sepia(1) saturate(10000%) opacity(80%);
+}
+
+.bottom > a:hover {
+	text-decoration: none;
+}
+
+/* media queries */
+@media only screen and (max-width: 600px) {
+	article {
+		margin-right: 0;
+		width: 100%;
+	}
+}
