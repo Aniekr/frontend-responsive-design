@@ -5,179 +5,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" type="text/css" href="./static/css/styles.css">
-	<title>DFDS verhalenpagina</title>
+  <title>DFDS verhalenpagina</title>
 </head>
 
 <body>
   <header>
     <div>
-      <a id="home" href="index.html"><h1>DFDS Verhalen</h1></a>
+      <a id="home" href="index.html">
+        <h1>DFDS Verhalen</h1>
+      </a>
     </div>
-	  <div class="menu-actions">
-		  <img id="zoek-button" src="./static/images/zoek.svg" alt="zoeken" onclick="showSearch()">
-		<nav>
-			<ul>
-				<li>
-					<a href="likedstories.html">
-						<img src="./static/images/jouwVerhalen.svg" alt="Jouw verhalen">
-					</a>
-				</li>
-				<li>
-					 <a href="register.html">
-						 <img src="./static/images/profiel.svg" alt="profiel">
-					 </a>
-				</li>
-			</ul>
-		</nav>
-	  </div>
+    <div class="menu-actions">
+      <img id="zoek-button" src="./static/images/zoek.svg" alt="zoeken" onclick="showSearch()">
+      <nav>
+        <ul>
+          <li>
+            <a href="likedstories.html">
+              <img src="./static/images/jouwVerhalen.svg" alt="Jouw verhalen">
+            </a>
+          </li>
+          <li>
+            <a href="register.html">
+              <img src="./static/images/profiel.svg" alt="profiel">
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main>
-  <form style="display: none;" id="zoeken">
-	  <input type="search" placeholder="zoeken...">
-  </form>
+    <form style="display: none;" id="zoeken">
+      <input type="search" placeholder="zoeken...">
+    </form>
     <section class="articles">
-	<h2>Aanbevolen</h2>
+      <h2>Aanbevolen</h2>
       <article class="story">
         <h3 class="story-title">Alzheimer</h3>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quidem saepe modi blanditiis quibusdam
           dolores dolorem
           unde. Sunt illum aut incidunt, asperiores vel eligendi sed et, possimus expedita porro corrupti.</p>
-		  <footer class="bottom">
-			  <div class="buttons">
-				  <a href="likedstories.html">
-					  <img src="./static/images/reageren.svg" alt="reageren" >
-				  </a>
-				  <a href="likedstories.html">
-					  <img src="./static/images/opslaan.svg" alt="opslaan" >
-				  </a>
-			  </div>
-			  <a href="alzheimer.html">Lees</a>
-		  </footer>
-      </article>
-      <article class="story">
-        <h3 class="story-title">Recept</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quidem saepe modi blanditiis quibusdam
-          dolores dolorem
-          unde. Sunt illum aut incidunt, asperiores vel eligendi sed et, possimus expedita porro corrupti.</p>
-		  <footer class="bottom">
-			  <div class="buttons">
-				  <a href="likedstories.html">
-					  <img src="./static/images/reageren.svg" alt="reageren" >
-				  </a>
-				  <a href="likedstories.html">
-					  <img src="./static/images/opslaan.svg" alt="opslaan" >
-				  </a>
-			  </div>
-			  <a href="alzheimer.html">Lees</a>
-		  </footer>
-      </article>
-      <article class="story">
-        <h3 class="story-title">Nichterig</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quidem saepe modi blanditiis quibusdam
-          dolores dolorem
-          unde. Sunt illum aut incidunt, asperiores vel eligendi sed et, possimus expedita porro corrupti.</p>
-		  <footer class="bottom">
-			  <div class="buttons">
-				  <a href="likedstories.html">
-					  <img src="./static/images/reageren.svg" alt="reageren" >
-				  </a>
-				  <a href="likedstories.html">
-					  <img src="./static/images/opslaan.svg" alt="opslaan" >
-				  </a>
-			  </div>
-			  <a href="alzheimer.html">Lees</a>
-		  </footer>
-      </article>
-    </section>
-    <section class="articles">
-	<h2>Jouw lijst</h2>
-      <article class="story">
-        <h3 class="story-title">Recept</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quidem saepe modi blanditiis quibusdam
-          dolores dolorem
-          unde. Sunt illum aut incidunt, asperiores vel eligendi sed et, possimus expedita porro corrupti.</p>
-		  <footer class="bottom">
-			  <div class="buttons">
-				  <a href="likedstories.html">
-					  <img src="./static/images/reageren.svg" alt="reageren" >
-				  </a>
-				  <a href="likedstories.html">
-					  <img src="./static/images/opslaan.svg" alt="opslaan" >
-				  </a>
-			  </div>
-			  <a href="alzheimer.html">Lees</a>
-		  </footer>
-      </article>
-      <article class="story">
-        <h3 class="story-title">Recept</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quidem saepe modi blanditiis quibusdam
-          dolores dolorem
-          unde. Sunt illum aut incidunt, asperiores vel eligendi sed et, possimus expedita porro corrupti.</p>
-		  <footer class="bottom">
-			  <div class="buttons">
-				  <a href="likedstories.html">
-					  <img src="./static/images/reageren.svg" alt="reageren" >
-				  </a>
-				  <a href="likedstories.html">
-					  <img src="./static/images/opslaan.svg" alt="opslaan" >
-				  </a>
-			  </div>
-			  <a href="alzheimer.html">Lees</a>
-		  </footer>
-      </article>
-    </section>
-    <section class="articles">
-	<h2>Meer verhalen</h2>
-      <article class="story">
-        <h3 class="story-title">Recept</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quidem saepe modi blanditiis quibusdam
-          dolores dolorem
-          unde. Sunt illum aut incidunt, asperiores vel eligendi sed et, possimus expedita porro corrupti.</p>
-		  <footer class="bottom">
-			  <div class="buttons">
-				  <a href="likedstories.html">
-					  <img src="./static/images/reageren.svg" alt="reageren" >
-				  </a>
-				  <a href="likedstories.html">
-					  <img src="./static/images/opslaan.svg" alt="opslaan" >
-				  </a>
-			  </div>
-        <a href="alzheimer.html">Lees</a>
-		  </footer>
-      </article>
-      <article class="story">
-        <h3 class="story-title">Recept</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quidem saepe modi blanditiis quibusdam
-          dolores dolorem
-          unde. Sunt illum aut incidunt, asperiores vel eligendi sed et, possimus expedita porro corrupti.</p>
-		  <footer class="bottom">
-			  <div class="buttons">
-				  <a href="likedstories.html">
-					  <img src="./static/images/reageren.svg" alt="reageren" >
-				  </a>
-				  <a href="likedstories.html">
-					  <img src="./static/images/opslaan.svg" alt="opslaan" >
-				  </a>
-			  </div>
-			  <a href="alzheimer.html">Lees</a>
-		  </footer>
-      </article>
-      <article class="story">
-        <h3 class="story-title">Recept</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quidem saepe modi blanditiis quibusdam
-          dolores dolorem
-          unde. Sunt illum aut incidunt, asperiores vel eligendi sed et, possimus expedita porro corrupti.</p>
-		  <footer class="bottom">
-			  <div class="buttons">
-				  <a href="likedstories.html">
-					  <img src="./static/images/reageren.svg" alt="reageren" >
-				  </a>
-				  <a href="likedstories.html">
-					  <img src="./static/images/opslaan.svg" alt="opslaan" >
-				  </a>
-			  </div>
-			  <a href="alzheimer.html">Lees</a>
-		  </footer>
+        <footer class="bottom">
+          <div class="buttons">
+            <a href="likedstories.html">
+              <img src="./static/images/reageren.svg" alt="reageren">
+            </a>
+            <a href="likedstories.html">
+              <img src="./static/images/opslaan.svg" alt="opslaan">
+            </a>
+          </div>
+          <a href="">Lees</a>
+        </footer>
       </article>
       <article class="story">
         <h3 class="story-title">Recept</h3>
@@ -185,20 +62,145 @@
           dolores dolorem
           unde. Sunt illum aut incidunt, asperiores vel eligendi sed et, possimus expedita porro corrupti.</p>
         <footer class="bottom">
-			<div class="buttons">
-				<a href="likedstories.html">
-					<img src="./static/images/reageren.svg" alt="reageren" >
-				</a>
-				<a href="likedstories.html">
-					<img src="./static/images/opslaan.svg" alt="opslaan" >
-				</a>
-			</div>
-      <a href="alzheimer.html">Lees</a>
+          <div class="buttons">
+            <a href="likedstories.html">
+              <img src="./static/images/reageren.svg" alt="reageren">
+            </a>
+            <a href="likedstories.html">
+              <img src="./static/images/opslaan.svg" alt="opslaan">
+            </a>
+          </div>
+          <a href="">Lees</a>
+        </footer>
+      </article>
+      <article class="story">
+        <h3 class="story-title">Nichterig</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quidem saepe modi blanditiis quibusdam
+          dolores dolorem
+          unde. Sunt illum aut incidunt, asperiores vel eligendi sed et, possimus expedita porro corrupti.</p>
+        <footer class="bottom">
+          <div class="buttons">
+            <a href="likedstories.html">
+              <img src="./static/images/reageren.svg" alt="reageren">
+            </a>
+            <a href="likedstories.html">
+              <img src="./static/images/opslaan.svg" alt="opslaan">
+            </a>
+          </div>
+          <a href="">Lees</a>
         </footer>
       </article>
     </section>
-    <script src="static/js/script.js"></script>
+    <section class="articles">
+      <h2>Jouw lijst</h2>
+      <article class="story">
+        <h3 class="story-title">Recept</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quidem saepe modi blanditiis quibusdam
+          dolores dolorem
+          unde. Sunt illum aut incidunt, asperiores vel eligendi sed et, possimus expedita porro corrupti.</p>
+        <footer class="bottom">
+          <div class="buttons">
+            <a href="likedstories.html">
+              <img src="./static/images/reageren.svg" alt="reageren">
+            </a>
+            <a href="likedstories.html">
+              <img src="./static/images/opslaan.svg" alt="opslaan">
+            </a>
+          </div>
+          <a href="">Lees</a>
+        </footer>
+      </article>
+      <article class="story">
+        <h3 class="story-title">Recept</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quidem saepe modi blanditiis quibusdam
+          dolores dolorem
+          unde. Sunt illum aut incidunt, asperiores vel eligendi sed et, possimus expedita porro corrupti.</p>
+        <footer class="bottom">
+          <div class="buttons">
+            <a href="likedstories.html">
+              <img src="./static/images/reageren.svg" alt="reageren">
+            </a>
+            <a href="likedstories.html">
+              <img src="./static/images/opslaan.svg" alt="opslaan">
+            </a>
+          </div>
+          <a href="">Lees</a>
+        </footer>
+      </article>
+    </section>
+    <section class="articles">
+      <h2>Meer verhalen</h2>
+      <article class="story">
+        <h3 class="story-title">Recept</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quidem saepe modi blanditiis quibusdam
+          dolores dolorem
+          unde. Sunt illum aut incidunt, asperiores vel eligendi sed et, possimus expedita porro corrupti.</p>
+        <footer class="bottom">
+          <div class="buttons">
+            <a href="likedstories.html">
+              <img src="./static/images/reageren.svg" alt="reageren">
+            </a>
+            <a href="likedstories.html">
+              <img src="./static/images/opslaan.svg" alt="opslaan">
+            </a>
+          </div>
+          <a href="">Lees</a>
+        </footer>
+      </article>
+      <article class="story">
+        <h3 class="story-title">Recept</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quidem saepe modi blanditiis quibusdam
+          dolores dolorem
+          unde. Sunt illum aut incidunt, asperiores vel eligendi sed et, possimus expedita porro corrupti.</p>
+        <footer class="bottom">
+          <div class="buttons">
+            <a href="likedstories.html">
+              <img src="./static/images/reageren.svg" alt="reageren">
+            </a>
+            <a href="likedstories.html">
+              <img src="./static/images/opslaan.svg" alt="opslaan">
+            </a>
+          </div>
+          <a href="">Lees</a>
+        </footer>
+      </article>
+      <article class="story">
+        <h3 class="story-title">Recept</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quidem saepe modi blanditiis quibusdam
+          dolores dolorem
+          unde. Sunt illum aut incidunt, asperiores vel eligendi sed et, possimus expedita porro corrupti.</p>
+        <footer class="bottom">
+          <div class="buttons">
+            <a href="likedstories.html">
+              <img src="./static/images/reageren.svg" alt="reageren">
+            </a>
+            <a href="likedstories.html">
+              <img src="./static/images/opslaan.svg" alt="opslaan">
+            </a>
+          </div>
+          <a href="">Lees</a>
+        </footer>
+      </article>
+      <article class="story">
+        <h3 class="story-title">Recept</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quidem saepe modi blanditiis quibusdam
+          dolores dolorem
+          unde. Sunt illum aut incidunt, asperiores vel eligendi sed et, possimus expedita porro corrupti.</p>
+        <footer class="bottom">
+          <div class="buttons">
+            <a href="likedstories.html">
+              <img src="./static/images/reageren.svg" alt="reageren">
+            </a>
+            <a href="likedstories.html">
+              <img src="./static/images/opslaan.svg" alt="opslaan">
+            </a>
+          </div>
+          <a href="">Lees</a>
+        </footer>
+      </article>
+    </section>
   </main>
+  <script src="static/js/script.js"></script>
 </body>
 
 </html>

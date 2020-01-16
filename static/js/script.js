@@ -9,10 +9,10 @@ function showSearch () {
 	}
 }
 
-/* meerdere verhalen tegelijk selecteren om te liken */
-const articles = document.getElementsByClassName("story-title")
+/* meerdere verhalen tegelijk selecteren */
 Array.from(articles).forEach(function (story) {
 	story.addEventListener("click", function(){
+console.log(this) 
 		if (this.classList.contains('selected')) {
 			this.classList.remove('selected')
 		} else {
