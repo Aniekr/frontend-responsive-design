@@ -141,8 +141,9 @@ input[type=text]:focus, input[type=password]:focus {
 	margin: 8px 0;
 	border: none;
 	cursor: pointer;
-	width: 100%;
+	width: 60%;
 	opacity: 0.9;
+	align-items: center;
 }
 
 .register-button:hover {
@@ -151,7 +152,6 @@ input[type=text]:focus, input[type=password]:focus {
 
 /* grijze achtergrond en centreren*/
 .signin {
-	background-color: #f1f1f1;
 	text-align: center;
 }
 
@@ -180,6 +180,12 @@ input[type=text]:focus, input[type=password]:focus {
 	}
 	.articles {
 		margin-right: 2em;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	.register-button {
+		width: 50%;
 	}
 }
 
