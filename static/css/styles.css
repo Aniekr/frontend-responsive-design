@@ -221,7 +221,7 @@ input[type=text]:focus, input[type=password]:focus {
 	background-color: #012944;
   }
 
-  /* The container <div> - needed to position the dropdown content */
+  /* positie dropdown */
 .dropdown {
 	position: relative;
 	display: inline-block;
@@ -245,12 +245,12 @@ input[type=text]:focus, input[type=password]:focus {
 	display: block;
   }
 
-  .input {
-	  margin-left: 1em;
-  }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #f1f1f1}
+  /* styling radio button*/
+ #myDropdown > div > label > input {
+	display: inline-block;
+	margin-right: 1em;
+ }
   
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-  .show {display:block;}
+  .show {display:block;
+}
