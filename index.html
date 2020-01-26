@@ -34,12 +34,12 @@
     </div>
   </header>
   <main>
-    <form style="display: none;" id="zoeken">
+    <form class="zoeken">
       <input type="search" placeholder="zoeken...">
     </form>
     <div class="dropdown">
-      <button onclick="myFunction()" class="dropbtn">Sorteren</button>
-      <div id="myDropdown" class="dropdown-content">
+      <button class="dropbtn" onclick="openDropdown('sort')">Sorteren</button>
+      <div id="sort" class="dropdown-content">
         <div class="radioButton">
           <label><input type="radio" name="optradio">A - Z</label>
         </div>
@@ -57,9 +57,9 @@
         </div>
       </div>
       <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn">Filteren</button>
-        <div id="myDropdown" class="dropdown-content">
-          <div class="checkbox">
+        <button class="dropbtn" onclick="openDropdown('filter')" >Filteren</button>
+        <div id="filter" class="dropdown-content">
+          <div class="radioButton">
             <label><input type="checkbox" name="check">A - Z</label>
           </div>
           <div class="radioButton">
@@ -75,6 +75,45 @@
             <label><input type="checkbox" name="check" checked>Meest bewaard</label>
           </div>
         </div>
+	  </div>
+	</div>
+		  <div class="dropdown-mobile">
+			  <button class="dropbtn" onclick="openDropdown('sortAndFilter')">Sorteren & filteren</button>
+			  <div id="sortAndFilter" class="dropdown-content">
+				  <p>Sorteren:</p>
+				  <div class="radioButton">
+					  <label><input type="radio" name="optradio">A - Z</label>
+				  </div>
+				  <div class="radioButton">
+					  <label><input type="radio" name="optradio">Z - A</label>
+				  </div>
+				  <div class="radioButton">
+					  <label><input type="radio" name="optradio">1 - 99</label>
+				  </div>
+				  <div class="radioButton">
+					  <label><input type="radio" name="optradio">99 - 1</label>
+				  </div>
+				  <div class="radioButton">
+					  <label><input type="radio" name="optradio" checked>Meest bewaard</label>
+				  </div>
+				  <p>Filteren:</p>
+					  <div class="radioButton">
+						  <label><input type="checkbox" name="check">A - Z</label>
+					  </div>
+					  <div class="radioButton">
+						  <label><input type="checkbox" name="check">Z - A</label>
+					  </div>
+					  <div class="radioButton">
+						  <label><input type="checkbox" name="check">1 - 99</label>
+					  </div>
+					  <div class="radioButton">
+						  <label><input type="checkbox" name="check">99 - 1</label>
+					  </div>
+					  <div class="radioButton">
+						  <label><input type="checkbox" name="check" checked>Meest bewaard</label>
+				  </div>
+			  </div>
+		  </div>
       <section class="articles">
         <h2>Aanbevolen</h2>
         <article class="story">
