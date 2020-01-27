@@ -13,6 +13,10 @@
 	src: url("../fonts/segoeui.ttf");
 }
 
+:root {
+	--mainColor: #F6861E;
+  }  
+
 /* header */
 
 header {
@@ -50,10 +54,23 @@ nav > ul img {
 	align-items: center;
 	justify-content: space-between;
 }
+
+/* Animatie leesknop https://codepen.io/collection/nkyEWN/*/
 .bottom > a {
+	background:linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	background-size: 5px 5px;
 	color: white;
-	font-size: 18px;
+	text-decoration: none;
+	transition: background-size .4s;
 }
+
+.bottom > a:hover {
+	background-size: 10px 50px;
+
+  }
+
 .buttons > a {
 	margin-right: 1em;
 }
@@ -64,13 +81,13 @@ nav > ul img {
 	padding-right: 2em;
 	padding-top: 2em;
 }
+
 .zoeken > input {
 	width: 100%;
 	height: 3em;
 	padding-left: 2em;
 	background: white;
 	border: none;
-
 }
 
 h1 {
@@ -162,13 +179,14 @@ input[type=text]:focus, input[type=password]:focus {
 	text-align: center;
 }
 
-/* animeer knoppen */
+/* animeer like knoppen */
 .button {
-	transition: transform .1s ease-in-out;
+	transition: transform .7s ease-in-out;
 }
 .buttons > a:nth-child(1) > img:hover {
 	transform: scale(1.1);
 }
+
 /* https://www.domysee.com/blogposts/coloring-white-images-css-filter for coloring */
 .buttons > a:nth-child(2) > img:hover {
 	transform: scale(1.1);
@@ -214,8 +232,9 @@ input[type=text]:focus, input[type=password]:focus {
 .story-title {
 	cursor: pointer;
 }
+
 .selected {
-	color: darkgoldenrod;
+	color: #F6861E;
 }
 
 #home {
@@ -253,7 +272,6 @@ input[type=text]:focus, input[type=password]:focus {
 	margin-top: 0;
 }
 
-
   /* Dropdown Content */
   .dropdown-content {
 	display: none;
@@ -262,7 +280,7 @@ input[type=text]:focus, input[type=password]:focus {
 	min-width: 230px;
 	z-index: 10;
 	margin-left: 2em;
-	  margin-top: 3em;
+	margin-top: 3em;
   }
 
   /* Tekst in dropdown */
