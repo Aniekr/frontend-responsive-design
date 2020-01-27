@@ -10,14 +10,13 @@ function showSearch () {
 https://www.w3schools.com/howto/howto_js_filter_dropdown.asp
  */
 function openDropdown(type) {
-	document.getElementById(type).classList.toggle("show");
+	document.getElementById(type).classList.toggle("giveHeight");
 }
 
 /* meerdere verhalen tegelijk selecteren */
 const articles = document.getElementsByClassName("story-title")
 Array.from(articles).forEach(function (story) {
 	story.addEventListener("click", function(){
-console.log(this)
 		if (this.classList.contains('selected')) {
 			this.classList.remove('selected')
 		} else {
