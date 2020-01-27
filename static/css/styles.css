@@ -168,10 +168,12 @@ input[type=text]:focus, input[type=password]:focus {
 	opacity: 0.9;
 	font-size: 14px;
 	font-family: dfds-light;
-}
+	transition: background-color 0.5s ease-in;
+  }
 
 .register-button:hover {
-	opacity: 1;
+	background-color: #F6861E;
+	cursor: pointer;
 }
 
 /* grijze achtergrond en centreren*/
@@ -180,9 +182,10 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 /* animeer like knoppen */
-.button {
-	transition: transform .7s ease-in-out;
+.buttons {
+	transition: transform 3s ease-in;
 }
+
 .buttons > a:nth-child(1) > img:hover {
 	transform: scale(1.1);
 }
@@ -199,6 +202,7 @@ input[type=text]:focus, input[type=password]:focus {
 
 .dropdown {
 	display: flex;
+	transition: .5s ease-in-out;
 }
 
 /* media queries */
@@ -233,6 +237,10 @@ input[type=text]:focus, input[type=password]:focus {
 	cursor: pointer;
 }
 
+.story-title:hover {
+	color: #F6861E;
+}
+
 .selected {
 	color: #F6861E;
 }
@@ -262,10 +270,19 @@ input[type=text]:focus, input[type=password]:focus {
 	background-color: #012944;
   }
 
+  .dropbtn > img {
+	  width: 10%;
+	  margin-left: 1em;
+  }
+
+  .dropbtn > img:hover {
+		transform: rotate(180deg);
+  }
+
   /* positie dropdown */
 .dropdown .dropdown-mobile {
 	position: relative;
-	display: inline-block;
+	display: inherit;
   }
 
 #sortAndFilter {

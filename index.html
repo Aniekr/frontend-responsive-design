@@ -38,7 +38,7 @@
       <input type="search" placeholder="zoeken...">
     </form>
     <div class="dropdown">
-      <button class="dropbtn" onclick="openDropdown('sort')">Sorteren</button>
+      <button class="dropbtn" onclick="openDropdown('sort')">Sorteren<img src="static/images/Pijl.svg" alt="pijl"></button>
       <div id="sort" class="dropdown-content">
         <div class="radioButton">
           <label><input type="radio" name="optradio">A - Z</label>
@@ -57,7 +57,7 @@
         </div>
       </div>
       <div class="dropdown">
-        <button class="dropbtn" onclick="openDropdown('filter')" >Filteren</button>
+        <button class="dropbtn" onclick="openDropdown('filter')">Filteren<img src="static/images/Pijl.svg" alt="pijl"></button>
         <div id="filter" class="dropdown-content">
           <div class="radioButton">
             <label><input type="checkbox" name="check">Fictie</label>
@@ -75,208 +75,207 @@
             <label><input type="checkbox" name="check">Gemoedstoestand</label>
           </div>
         </div>
-	  </div>
-	</div>
-		  <div class="dropdown-mobile">
-			  <button class="dropbtn" onclick="openDropdown('sortAndFilter')">Sorteren & filteren</button>
-			  <div id="sortAndFilter" class="dropdown-content">
-				  <p>Sorteren:</p>
-				  <div class="radioButton">
-					  <label><input type="radio" name="optradio">A - Z</label>
-				  </div>
-				  <div class="radioButton">
-					  <label><input type="radio" name="optradio">Z - A</label>
-				  </div>
-				  <div class="radioButton">
-					  <label><input type="radio" name="optradio">1 - 99</label>
-				  </div>
-				  <div class="radioButton">
-					  <label><input type="radio" name="optradio">99 - 1</label>
-				  </div>
-				  <div class="radioButton">
-					  <label><input type="radio" name="optradio" checked>Meest bewaard</label>
-				  </div>
-				  <p>Filteren:</p>
-					  <div class="radioButton">
-						  <label><input type="checkbox" name="check">A - Z</label>
-					  </div>
-					  <div class="radioButton">
-						  <label><input type="checkbox" name="check">Z - A</label>
-					  </div>
-					  <div class="radioButton">
-						  <label><input type="checkbox" name="check">1 - 99</label>
-					  </div>
-					  <div class="radioButton">
-						  <label><input type="checkbox" name="check">99 - 1</label>
-					  </div>
-					  <div class="radioButton">
-						  <label><input type="checkbox" name="check" checked>Meest bewaard</label>
-				  </div>
-			  </div>
-		  </div>
-      <section class="articles">
-        <h2>Aanbevolen</h2>
-        <article class="story">
-          <img src="static/images/alzheimer.jpg" alt="Alzheimer">
-          <h3 class="story-title">Alzheimer</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quidem saepe modi blanditiis quibusdam
-            dolores dolorem
-            unde. Sunt illum aut incidunt, asperiores vel eligendi sed et, possimus expedita porro corrupti.</p>
-          <footer class="bottom">
-            <div class="buttons">
-              <a href="likedStories.html">
-                <img src="./static/images/reageren.svg" alt="reageren">
-              </a>
-              <a href="likedStories.html">
-                <img src="./static/images/opslaan.svg" alt="opslaan">
-              </a>
-            </div>
-            <a href="">Lees</a>
-          </footer>
-        </article>
-        <article class="story">
-          <h3 class="story-title">Recept</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quidem saepe modi blanditiis quibusdam
-            dolores dolorem
-            unde. Sunt illum aut incidunt, asperiores vel eligendi sed et, possimus expedita porro corrupti.</p>
-          <footer class="bottom">
-            <div class="buttons">
-              <a href="likedStories.html">
-                <img src="./static/images/reageren.svg" alt="reageren">
-              </a>
-              <a href="likedStories.html">
-                <img src="./static/images/opslaan.svg" alt="opslaan">
-              </a>
-            </div>
-            <a href="">Lees</a>
-          </footer>
-        </article>
-        <article class="story">
-          <h3 class="story-title">Nichterig</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quidem saepe modi blanditiis quibusdam
-            dolores dolorem
-            unde. Sunt illum aut incidunt, asperiores vel eligendi sed et, possimus expedita porro corrupti.</p>
-          <footer class="bottom">
-            <div class="buttons">
-              <a href="likedStories.html">
-                <img src="./static/images/reageren.svg" alt="reageren">
-              </a>
-              <a href="likedStories.html">
-                <img src="./static/images/opslaan.svg" alt="opslaan">
-              </a>
-            </div>
-            <a href="">Lees</a>
-          </footer>
-        </article>
-      </section>
-      <section class="articles">
-        <h2>Jouw lijst</h2>
-        <article class="story">
-          <h3 class="story-title">Recept</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quidem saepe modi blanditiis quibusdam
-            dolores dolorem
-            unde. Sunt illum aut incidunt, asperiores vel eligendi sed et, possimus expedita porro corrupti.</p>
-          <footer class="bottom">
-            <div class="buttons">
-              <a href="likedStories.html">
-                <img src="./static/images/reageren.svg" alt="reageren">
-              </a>
-              <a href="likedStories.html">
-                <img src="./static/images/opslaan.svg" alt="opslaan">
-              </a>
-            </div>
-            <a href="">Lees</a>
-          </footer>
-        </article>
-        <article class="story">
-          <h3 class="story-title">Recept</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quidem saepe modi blanditiis quibusdam
-            dolores dolorem
-            unde. Sunt illum aut incidunt, asperiores vel eligendi sed et, possimus expedita porro corrupti.</p>
-          <footer class="bottom">
-            <div class="buttons">
-              <a href="likedStories.html">
-                <img src="./static/images/reageren.svg" alt="reageren">
-              </a>
-              <a href="likedStories.html">
-                <img src="./static/images/opslaan.svg" alt="opslaan">
-              </a>
-            </div>
-            <a href="">Lees</a>
-          </footer>
-        </article>
-      </section>
-      <section class="articles">
-        <h2>Meer verhalen</h2>
-        <article class="story">
-          <h3 class="story-title">Recept</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quidem saepe modi blanditiis quibusdam
-            dolores dolorem
-            unde. Sunt illum aut incidunt, asperiores vel eligendi sed et, possimus expedita porro corrupti.</p>
-          <footer class="bottom">
-            <div class="buttons">
-              <a href="likedStories.html">
-                <img src="./static/images/reageren.svg" alt="reageren">
-              </a>
-              <a href="likedStories.html">
-                <img src="./static/images/opslaan.svg" alt="opslaan">
-              </a>
-            </div>
-            <a href="">Lees</a>
-          </footer>
-        </article>
-        <article class="story">
-          <h3 class="story-title">Recept</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quidem saepe modi blanditiis quibusdam
-            dolores dolorem
-            unde. Sunt illum aut incidunt, asperiores vel eligendi sed et, possimus expedita porro corrupti.</p>
-          <footer class="bottom">
-            <div class="buttons">
-              <a href="likedStories.html">
-                <img src="./static/images/reageren.svg" alt="reageren">
-              </a>
-              <a href="likedStories.html">
-                <img src="./static/images/opslaan.svg" alt="opslaan">
-              </a>
-            </div>
-            <a href="">Lees</a>
-          </footer>
-        </article>
-        <article class="story">
-          <h3 class="story-title">Recept</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quidem saepe modi blanditiis quibusdam
-            dolores dolorem
-            unde. Sunt illum aut incidunt, asperiores vel eligendi sed et, possimus expedita porro corrupti.</p>
-          <footer class="bottom">
-            <div class="buttons">
-              <a href="likedStories.html">
-                <img src="./static/images/reageren.svg" alt="reageren">
-              </a>
-              <a href="likedStories.html">
-                <img src="./static/images/opslaan.svg" alt="opslaan">
-              </a>
-            </div>
-            <a href="">Lees</a>
-          </footer>
-        </article>
-        <article class="story">
-          <h3 class="story-title">Recept</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quidem saepe modi blanditiis quibusdam
-            dolores dolorem
-            unde. Sunt illum aut incidunt, asperiores vel eligendi sed et, possimus expedita porro corrupti.</p>
-          <footer class="bottom">
-            <div class="buttons">
-              <a href="likedStories.html">
-                <img src="./static/images/reageren.svg" alt="reageren">
-              </a>
-              <a href="likedStories.html">
-                <img src="./static/images/opslaan.svg" alt="opslaan">
-              </a>
-            </div>
-            <a href="">Lees</a>
-          </footer>
-        </article>
-      </section>
+      </div>
+    </div>
+    <div class="dropdown-mobile">
+      <button class="dropbtn" onclick="openDropdown('sortAndFilter')">Sorteren & filteren<img src="static/images/Pijl.svg" alt="pijl"></button>
+      <div id="sortAndFilter" class="dropdown-content">
+        <p>Sorteren:</p>
+        <div class="radioButton">
+          <label><input type="radio" name="optradio">A - Z</label>
+        </div>
+        <div class="radioButton">
+          <label><input type="radio" name="optradio">Z - A</label>
+        </div>
+        <div class="radioButton">
+          <label><input type="radio" name="optradio">1 - 99</label>
+        </div>
+        <div class="radioButton">
+          <label><input type="radio" name="optradio">99 - 1</label>
+        </div>
+        <div class="radioButton">
+          <label><input type="radio" name="optradio" checked>Meest bewaard</label>
+        </div>
+        <p>Filteren:</p>
+        <div class="radioButton">
+          <label><input type="checkbox" name="check">A - Z</label>
+        </div>
+        <div class="radioButton">
+          <label><input type="checkbox" name="check">Z - A</label>
+        </div>
+        <div class="radioButton">
+          <label><input type="checkbox" name="check">1 - 99</label>
+        </div>
+        <div class="radioButton">
+          <label><input type="checkbox" name="check">99 - 1</label>
+        </div>
+        <div class="radioButton">
+          <label><input type="checkbox" name="check" checked>Meest bewaard</label>
+        </div>
+      </div>
+    </div>
+    <section class="articles">
+      <h2>Aanbevolen</h2>
+      <article class="story">
+        <h3 class="story-title">Alzheimer</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quidem saepe modi blanditiis quibusdam
+          dolores dolorem
+          unde. Sunt illum aut incidunt, asperiores vel eligendi sed et, possimus expedita porro corrupti.</p>
+        <footer class="bottom">
+          <div class="buttons">
+            <a href="likedStories.html">
+              <img src="./static/images/reageren.svg" alt="reageren">
+            </a>
+            <a href="likedStories.html">
+              <img src="./static/images/opslaan.svg" alt="opslaan">
+            </a>
+          </div>
+          <a href="">Lees</a>
+        </footer>
+      </article>
+      <article class="story">
+        <h3 class="story-title">Recept</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quidem saepe modi blanditiis quibusdam
+          dolores dolorem
+          unde. Sunt illum aut incidunt, asperiores vel eligendi sed et, possimus expedita porro corrupti.</p>
+        <footer class="bottom">
+          <div class="buttons">
+            <a href="likedStories.html">
+              <img src="./static/images/reageren.svg" alt="reageren">
+            </a>
+            <a href="likedStories.html">
+              <img src="./static/images/opslaan.svg" alt="opslaan">
+            </a>
+          </div>
+          <a href="">Lees</a>
+        </footer>
+      </article>
+      <article class="story">
+        <h3 class="story-title">Nichterig</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quidem saepe modi blanditiis quibusdam
+          dolores dolorem
+          unde. Sunt illum aut incidunt, asperiores vel eligendi sed et, possimus expedita porro corrupti.</p>
+        <footer class="bottom">
+          <div class="buttons">
+            <a href="likedStories.html">
+              <img src="./static/images/reageren.svg" alt="reageren">
+            </a>
+            <a href="likedStories.html">
+              <img src="./static/images/opslaan.svg" alt="opslaan">
+            </a>
+          </div>
+          <a href="">Lees</a>
+        </footer>
+      </article>
+    </section>
+    <section class="articles">
+      <h2>Jouw lijst</h2>
+      <article class="story">
+        <h3 class="story-title">Recept</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quidem saepe modi blanditiis quibusdam
+          dolores dolorem
+          unde. Sunt illum aut incidunt, asperiores vel eligendi sed et, possimus expedita porro corrupti.</p>
+        <footer class="bottom">
+          <div class="buttons">
+            <a href="likedStories.html">
+              <img src="./static/images/reageren.svg" alt="reageren">
+            </a>
+            <a href="likedStories.html">
+              <img src="./static/images/opslaan.svg" alt="opslaan">
+            </a>
+          </div>
+          <a href="">Lees</a>
+        </footer>
+      </article>
+      <article class="story">
+        <h3 class="story-title">Recept</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quidem saepe modi blanditiis quibusdam
+          dolores dolorem
+          unde. Sunt illum aut incidunt, asperiores vel eligendi sed et, possimus expedita porro corrupti.</p>
+        <footer class="bottom">
+          <div class="buttons">
+            <a href="likedStories.html">
+              <img src="./static/images/reageren.svg" alt="reageren">
+            </a>
+            <a href="likedStories.html">
+              <img src="./static/images/opslaan.svg" alt="opslaan">
+            </a>
+          </div>
+          <a href="">Lees</a>
+        </footer>
+      </article>
+    </section>
+    <section class="articles">
+      <h2>Meer verhalen</h2>
+      <article class="story">
+        <h3 class="story-title">Recept</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quidem saepe modi blanditiis quibusdam
+          dolores dolorem
+          unde. Sunt illum aut incidunt, asperiores vel eligendi sed et, possimus expedita porro corrupti.</p>
+        <footer class="bottom">
+          <div class="buttons">
+            <a href="likedStories.html">
+              <img src="./static/images/reageren.svg" alt="reageren">
+            </a>
+            <a href="likedStories.html">
+              <img src="./static/images/opslaan.svg" alt="opslaan">
+            </a>
+          </div>
+          <a href="">Lees</a>
+        </footer>
+      </article>
+      <article class="story">
+        <h3 class="story-title">Recept</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quidem saepe modi blanditiis quibusdam
+          dolores dolorem
+          unde. Sunt illum aut incidunt, asperiores vel eligendi sed et, possimus expedita porro corrupti.</p>
+        <footer class="bottom">
+          <div class="buttons">
+            <a href="likedStories.html">
+              <img src="./static/images/reageren.svg" alt="reageren">
+            </a>
+            <a href="likedStories.html">
+              <img src="./static/images/opslaan.svg" alt="opslaan">
+            </a>
+          </div>
+          <a href="">Lees</a>
+        </footer>
+      </article>
+      <article class="story">
+        <h3 class="story-title">Recept</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quidem saepe modi blanditiis quibusdam
+          dolores dolorem
+          unde. Sunt illum aut incidunt, asperiores vel eligendi sed et, possimus expedita porro corrupti.</p>
+        <footer class="bottom">
+          <div class="buttons">
+            <a href="likedStories.html">
+              <img src="./static/images/reageren.svg" alt="reageren">
+            </a>
+            <a href="likedStories.html">
+              <img src="./static/images/opslaan.svg" alt="opslaan">
+            </a>
+          </div>
+          <a href="">Lees</a>
+        </footer>
+      </article>
+      <article class="story">
+        <h3 class="story-title">Recept</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quidem saepe modi blanditiis quibusdam
+          dolores dolorem
+          unde. Sunt illum aut incidunt, asperiores vel eligendi sed et, possimus expedita porro corrupti.</p>
+        <footer class="bottom">
+          <div class="buttons">
+            <a href="likedStories.html">
+              <img src="./static/images/reageren.svg" alt="reageren">
+            </a>
+            <a href="likedStories.html">
+              <img src="./static/images/opslaan.svg" alt="opslaan">
+            </a>
+          </div>
+          <a href="">Lees</a>
+        </footer>
+      </article>
+    </section>
   </main>
   <script src="static/js/script.js"></script>
 </body>

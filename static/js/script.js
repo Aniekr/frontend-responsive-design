@@ -13,7 +13,6 @@ function openDropdown(type) {
 	document.getElementById(type).classList.toggle("show");
 }
 
-
 /* meerdere verhalen tegelijk selecteren */
 const articles = document.getElementsByClassName("story-title")
 Array.from(articles).forEach(function (story) {
